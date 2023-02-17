@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body
+{
+    background-color: #f0f4f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 100px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 18px;
+    gap: 50px;
+    position: absolute;
+    right: 170px;
+}
+a{
+    color: black;
+}
+a:hover
+{
+    text-decoration: underline;
+    font-weight: 900;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+
+button{
+    height: 35px;
+    width: 150px;
+    background-color: #20bc7e;  
+    color: white;
+    border-radius: 10px;
+    border: transparent;
+    margin-top: 15px;
+    font-size: 16px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.right{
+    width: 50%;
+}
+.doctor{
+    position: absolute;
+    bottom: 0;
+    padding-top: 20px;
+    height: 90%;
+    right: 0;
+    
+}
+.yellow{
+    position: absolute;
+    right: 0;
+    width: 19%;
+    bottom: 65px;
+}
+
+.green{
+    position: absolute;
+    right: 0;
+    width: 30%;
+    bottom: 13px;
+}
+.left{
+    margin: 10px 100px;
+    position: absolute;
+    left: 10px;
+    top:200px;
+    width: 60%;
+  }
+p{
+    color:#7c7c7c;
+    font-size: 20px;
+}
+.left h1{
+      padding: 10px;
+      font-size: 95px;
+}
+.img2{
+    margin-left: 850px;
+    margin-top: 0px;
+}
+.img3{
+    margin-left: 890px;
+    margin-top: 0px;
+}
+.img4{
+    z-index: -1;
+    position: absolute;
+    top: -10px;
+   left: 350px;
+}
+
+
+  
+

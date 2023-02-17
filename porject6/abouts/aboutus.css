@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    background-color:  #f0f4f5;
+
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 18px;
+    gap: 50px;
+    position: absolute;
+    right: 170px;
+}
+a{
+    color: black;
+}
+a:hover
+{
+    text-decoration: underline;
+    font-weight: 900;
+    cursor: pointer;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    padding:0% 5%;
+}
+h1{
+    color: #20bc7e;
+    font-size: 30px;
+    text-align: center;
+}
+span{
+    color: #20bc7e;
+    font-weight: 600;
+    font-size: 25px;
+}
+p{
+
+    text-align: center;
+    font-size: 18px;
+
+}
+.box{
+    text-align: center;
+   margin: 10px;
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px  black;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.hars
+{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+   
+}
+
+
