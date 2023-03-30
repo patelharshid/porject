@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+    color:white;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background: url(../Assets/img5.png) no-repeat center center/cover;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+button{
+    background-color:rgb(83, 4, 83);
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-size:medium;
+    width: 120px;  
+}
+button:hover{
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+header{
+    padding-top: 7px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   
+}
+nav ul{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 90px;
+    font-weight: 500;
+}
+nav ul li:hover{
+    font-weight: 900;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.logo{
+    border-radius: 20px;
+}
+.hars{
+    margin-left: 300px;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:100px;
+}
+h1{
+    font-size: 60px;
+}
+p{
+    font-size: 20px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.patel{
+    margin-top: 40px;
+    margin-left: 180px;
+    width: 190px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
