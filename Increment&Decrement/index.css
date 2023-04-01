@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+#decrement{
+    font-size: 20px;
+}
+#increment{
+    font-size: 20px;
+}
+#ans{
+    font-size: 25px;
+    border: 2px solid black;
+    padding: 8px;
+}
+h1{
+    position: absolute;
+    top: 250px;
+}
+#reset{
+    font-size: 20px;
+    position: absolute;
+    top:430px;
+}
