@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow-x: hidden;
+}
+.bgcimg{
+    background-image: url(../Assets/mainBackground.png);
+    height: 150vh;
+    width: 100vw ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul{
+   list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header div img{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 180px;
+    margin-top: 30px;
+    gap: 100px;
+    font-size: 25px;
+}
+header nav ul li a:hover
+{
+    font-weight: 900;
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+}
+hr{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.main
+{
+    margin-top: 130px;
+    margin-left: 180px;
+    color: white;
+}
+.main h1{
+    font-size: 70px;
+    width: 50%;
+}
+.main p{
+    margin-top: 20px;
+    width: 30%;
+    font-size: 20px;
+}
+.main button
+{
+    margin-top: 30px;
+    background-color:  #6663e9;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 15px;
+    height: 40px;
+    width: 140px;
+    color: white;
+    border-color: transparent;
+}
+.main button:hover{
+    background-color: black;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+}
+.logosection{
+    background-color:white;
+    border-radius: 15px;
+    height: 130px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 85px;
+    margin-left: 111px;
+    margin-top: -50px;
+    z-index: 1;
+    position: absolute;
+}
+.buysection{
+    background-color: darkgray;
+}
+.buysection div h1{
+    font-size: 70px;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buysection div img{
+    height: 40vh;
+    width: 18vw;
+    border-radius: 20px;
+}
+.buysection div p{
+    color: #473f9c;
+}
+.buysection div h3{
+    font-weight: 700;
+}
+.buysection button{
+    height: 30px;
+    width: 65px;
+    background-color:  #6663e9;
+    color: white;
+    border-color: transparent;
+    border-radius:20px ;
+    font-size: 15px;
+}
+.img{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+    margin-top: 70px;
+    gap: 13px;
+    width: 60%;
+    row-gap: 100px;
+     
+}
+.bgcbutton{
+    background-color: white;
+    height:75px;
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    position: relative;
+    z-index: 1;
+    margin-top: -30px;
+}
+.bgcbutton div{
+   padding-left: 25px;
+   padding-top: 18px;
+}
+.bgcbutton div p{
+    margin-top: 6px;
+}
+.bgcbutton button{
+    margin-top: 26px;
+    margin-right: 19px;
+}
+.img1{
+    margin-top: -65px;
+}
+.img2{
+    margin-top: -5px;
+}
+.img3{
+    margin-top: 60px;
+}
+.img6{
+    margin-top: -80px;
+}
+.img5{
+    margin-top: -25px;
+}
+.img4{
+    margin-top: 40px;
+}
+.img7{
+    margin-top: -90px;
+}
+.img8{
+    margin-top: -25px;
+}
+.img9{
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+/* early book */
+.leftimg{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leftimg_2{
+    position: relative;
+    height: 50vh;
+    width: 25vw;
+    top: -480px;
+    margin-left: 140px;
+    border-radius: 10%;
+
+}
+.leftimg_1{
+    margin-left: -10px;
+    height: 60vh;
+    width: 40vw;  
+}
+.leftimg_right{
+    margin-top: -450px;
+    width: 80%;
+}
+.leftimg_right h1{
+    font-size: 80px;
+}
+.leftimg_right p{
+    margin-top: 29px;
+}
+.leftimg_right button{
+    background-color: #6663e9;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    color: white;
+    padding: 10px 30px;
+}
+/*  early book2  */
+.rightimg{
+    margin-top: -260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rightimg_1{
+    height: 60vh;
+    width: 50vw; 
+
+}
+.rightimg_2{
+    position: relative;
+    height: 50vh;
+    width: 29vw;
+    top: -430px;
+    margin-left: 130px;
+    border-radius: 10%;
+    right: -33px;
+    scale: 0.9;
+
+}
+.rightimg_left{
+    margin-top: -380px;
+    margin-left: 50px;
+    width: 80%;
+}
+.rightimg_left h1{
+    font-size: 80px;
+}
+.rightimg_left p{
+    margin-top: 29px;
+}
+.rightimg_left button{
+    background-color: #6663e9;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    color: white;
+    padding: 10px 30px;
+}
+/* subscribe */
+.subscribe{
+    background-color: #6663e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -340px;
+    height: 75vh;
+    width: 75vw;
+    margin-left: 180px;
+    border-radius: 60px;
+    color: white;
+}
+.subscribe h1{
+    font-size: 80px;
+    width: 90%;
+    margin-left: 60px;
+    margin-top: -40px;
+    text-align: center;
+}
+.subscribe p{
+    margin-top: 25px;
+    text-align: center;
+    margin-left: 300px;
+    font-size: 17px;
+    width: 40%;
+}
+.subscribe_button{
+    display:flex;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 40px;
+    gap: 20;
+}
+.subscribe_button div{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    background: #5654d1;
+    border-radius: 40px;
+    width: 468px;
+    height: 61px;
+    padding: 0 20px;
+}
+.subscribe_button input{
+    background-color: #5654d1;
+    border: transparent;
+}
+.subscribe_button button{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 40px;
+    border: transparent;
+    color:#5654d1;
+    padding:18px 35px;
+    margin-left: 25px;
+}
+/* footer */
+footer div a{
+    color: black;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 480px;
+    margin-bottom: 50px;
+}
+.social-img{
+    margin: 0 15px;
+    margin-top: 15px;
+}
+.footer_img{
+    margin-left: -500px;
+}
+.footer_img p{
+    width: 60%;
+    font-size: 19px;
+    margin-top: 15px;
+    
+}
+footer div ul li:first-child{
+    font-size: 25px;
+    font-weight: 500;
+}
+footer div ul li {
+    padding-top: 15px;
+}
+.locatoin{
+    margin-left: -100px;
+}
+.contact{
+    margin-left: 190px;
+}
+.hars{
+    margin-left: 190px;
+}
+
+
+/*media Query  */
